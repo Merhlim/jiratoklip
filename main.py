@@ -85,9 +85,9 @@ class main:
         print("Complete! Uploading spreadsheet")
         self.upload("./dev-ticket-state-counts.xlsx")
         print("Done - Will now Sleep for 6000")
-        sleep(6000)
+        sleep(600)
         self.__init__()
-        
+
     def upload(self, file):
         bucket_name = main.config.get("s3", "bucket_name")
         main.s3.upload_file(file, bucket_name, "dev-stuff/"+file)
