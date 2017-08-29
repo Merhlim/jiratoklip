@@ -6,6 +6,13 @@ By Joshua ampstead - Merhlim
 Requires docker to be run
 The config.ini and aws files to be preconfigured and ready
 
+# Config
+### config.ini
+config.ini contains the config for JIRA authentication and S3 bucket name [JIRA Documentation](https://confluence.atlassian.com/jira/jira-documentation-1556.html)
+
+### aws
+aws contains the config for AWS like access keys [AWS Documentation](https://aws.amazon.com/documentation/)
+
 # Run
 
 ```
