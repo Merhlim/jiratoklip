@@ -1,0 +1,5 @@
+[jira]
+Username = <UserName>
+Password = <Password>
+[s3]
+bucket_name = <S3BucketName>
