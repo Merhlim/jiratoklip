@@ -1,0 +1,4 @@
+[default]
+aws_bucket_name=<NameOfBucket>
+aws_access_key_id=<BucketAccessKey>
+aws_secret_access_key=<BucketSecretAccessKey>
