@@ -8,10 +8,14 @@ The config.ini and aws files to be preconfigured and ready
 
 # Config
 ### config.ini
-config.ini contains the config for JIRA authentication and S3 bucket name [JIRA Documentation](https://confluence.atlassian.com/jira/jira-documentation-1556.html)
+config.ini contains the config for JIRA authentication. Jira auth requires a username and password of any user that can see all of the projects.
+
+See the config sample file for more information
 
 ### aws
-aws contains the config for AWS like access keys [AWS Documentation](https://aws.amazon.com/documentation/)
+aws contains the config for AWS like access keys [AWS Documentation](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+
+see the aws sample file for more information
 
 # Run
 

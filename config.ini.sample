@@ -1,5 +1,14 @@
 [jira]
+#Authentication for JIRA api
+
+#Username of a user that has access to see all projects
 Username = <UserName>
+
+#Password of that user
 Password = <Password>
+
 [s3]
+#Config for Amazon Web Services S3 Bucket
+
+#The name of the Amazon S3 bucket that you are using to upload the data
 bucket_name = <S3BucketName>

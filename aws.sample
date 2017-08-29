@@ -1,4 +1,11 @@
 [default]
+#Authentication for Amazon Web Services S3 Bucket
+
+#The name of the bucket that you are using 
 aws_bucket_name=<NameOfBucket>
+
+#The key used to access the bucket
 aws_access_key_id=<BucketAccessKey>
+
+#The secret key used to access the bucket 
 aws_secret_access_key=<BucketSecretAccessKey>
