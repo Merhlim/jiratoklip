@@ -84,7 +84,7 @@ class main:
         self.excelformat(output, data, baf_output, bugs,escalated,timetakenbf, this_output)
         print("Complete! Uploading spreadsheet")
         self.upload("./dev-ticket-state-counts.xlsx")
-        print("Done - Will now Sleep for 6000")
+        print("Done - Will now Sleep for 600")
         sleep(600)
         self.__init__()
 
